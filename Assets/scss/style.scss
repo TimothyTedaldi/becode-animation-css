@@ -1,4 +1,5 @@
-@import "assets/css/normalize.css";
+@import "Assets/css/normalize.css";
+
 body{
     header{ 
         background-color: black;
@@ -59,4 +60,73 @@ body{
         }
     }
     background-color: rgba(172, 168, 168, 0.767);      
+    .main{
+        display: block;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: white;
+        .top{
+            @extend .main;
+            display: block;
+            .circle {
+                width: 200px;
+                height: 200px;
+                border-radius: 50%;
+                font-size: 24px;
+                color: #fff;
+                line-height: 200px;
+                text-align: center;
+                background: rgb(202, 70, 9);
+                position: absolute;
+                right: 20%;
+                top: 25%;
+                float: left;
+            }
+        }
+        .bottom{
+            article{
+                margin-left: 10%;
+                margin-right: 10%;
+                h2{
+                    font-size: 52px;
+                    color: black;
+                }
+                h3{
+                    font-size: 36px;
+                    color: rgb(202, 70, 9);
+                }
+                p{
+                    font-size: 24px;
+                    color: gray;
+                }
+            }
+        }
+        .comments{
+            ul{
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                margin-left: 5%;
+                li{
+                    text-decoration: none;
+                    display: inline;
+                    i{
+                        padding-left: 5%;
+                        padding-right: 2%;
+                        color: gray;
+                        font-size: 24px;  
+                     }
+                    a{
+                        color: gray;
+                        font-size: 24px; 
+                        text-align: center;
+                        text-decoration: none;
+                        padding: 16px;
+                    }
+                }
+            }
+        }
+    }
 }
