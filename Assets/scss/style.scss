@@ -1,0 +1,40 @@
+body{
+    background-color: black;
+    .useless{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-row-gap: 1%;
+        text-align: center;
+        margin-top: 5%;
+        button{
+            color: white;
+            font-size: 18px;
+            background-color: rgba(110, 42, 173, 0.808);
+            border: solid 7px rgb(189, 19, 53);
+            width: 250px;
+            height: 200px;
+            transition: all .5s ease-in-out;
+        }
+        #b1{
+            &:hover{
+                background-image: url('../../img/pika.jpg');
+                background-position: center;
+                background-size: cover;
+                background-color: black;
+                color: white;
+                transition: all .5s ease-in-out;
+            }
+        }
+        #b2{
+            &:hover{
+                transition: all .2s ease-in-out;
+                transform: scale(1.5);
+            }
+        }
+        #b3{
+            &:hover{
+                transform: translatey(200px);
+            }
+        }
+    }    
+}

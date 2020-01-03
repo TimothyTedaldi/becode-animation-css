@@ -1,0 +1,47 @@
+/* line 1, ../Documents/GitHub/becode-animation-css/Assets/scss/style.scss */
+body {
+  background-color: black;
+}
+
+/* line 3, ../Documents/GitHub/becode-animation-css/Assets/scss/style.scss */
+body .useless {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-row-gap: 1%;
+  text-align: center;
+  margin-top: 5%;
+}
+
+/* line 9, ../Documents/GitHub/becode-animation-css/Assets/scss/style.scss */
+body .useless button {
+  color: white;
+  font-size: 18px;
+  background-color: rgba(110, 42, 173, 0.808);
+  border: solid 7px #bd1335;
+  width: 250px;
+  height: 200px;
+  transition: all .5s ease-in-out;
+}
+
+/* line 19, ../Documents/GitHub/becode-animation-css/Assets/scss/style.scss */
+body .useless #b1:hover {
+  background-image: url("../../img/pika.jpg");
+  background-position: center;
+  background-size: cover;
+  background-color: black;
+  color: white;
+  transition: all .5s ease-in-out;
+}
+
+/* line 29, ../Documents/GitHub/becode-animation-css/Assets/scss/style.scss */
+body .useless #b2:hover {
+  transition: all .2s ease-in-out;
+  transform: scale(1.5);
+}
+
+/* line 35, ../Documents/GitHub/becode-animation-css/Assets/scss/style.scss */
+body .useless #b3:hover {
+  transform: translatey(200px);
+}
+
+/*# sourceMappingURL=style.css.map */

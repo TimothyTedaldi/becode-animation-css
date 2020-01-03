@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "style.css",
+	"sources": [
+		"../scss/style.scss"
+	],
+	"sourcesContent": [
+		"body{\r\n    background-color: black;\r\n    .useless{\r\n        display: grid;\r\n        grid-template-columns: repeat(3, 1fr);\r\n        grid-row-gap: 1%;\r\n        text-align: center;\r\n        margin-top: 5%;\r\n        button{\r\n            color: white;\r\n            font-size: 18px;\r\n            background-color: rgba(110, 42, 173, 0.808);\r\n            border: solid 7px rgb(189, 19, 53);\r\n            width: 250px;\r\n            height: 200px;\r\n            transition: all .5s ease-in-out;\r\n        }\r\n        #b1{\r\n            &:hover{\r\n                background-image: url('../../img/pika.jpg');\r\n                background-position: center;\r\n                background-size: cover;\r\n                background-color: black;\r\n                color: white;\r\n                transition: all .5s ease-in-out;\r\n            }\r\n        }\r\n        #b2{\r\n            &:hover{\r\n                transition: all .2s ease-in-out;\r\n                transform: scale(1.5);\r\n            }\r\n        }\r\n        #b3{\r\n            &:hover{\r\n                transform: translatey(200px);\r\n            }\r\n        }\r\n    }    \r\n}\r\n"
+	],
+	"names": [],
+	"mappings": ";AAAA,AAAA,IAAI,CAAA;EACA,gBAAgB,EAAE,KAAK;CAsC1B;;;AAvCD,AAEI,IAFA,CAEA,QAAQ,CAAA;EACJ,OAAO,EAAE,IAAI;EACb,qBAAqB,EAAE,cAAc;EACrC,YAAY,EAAE,EAAE;EAChB,UAAU,EAAE,MAAM;EAClB,UAAU,EAAE,EAAE;CA+BjB;;;AAtCL,AAQQ,IARJ,CAEA,QAAQ,CAMJ,MAAM,CAAA;EACF,KAAK,EAAE,KAAK;EACZ,SAAS,EAAE,IAAI;EACf,gBAAgB,EAAE,yBAAyB;EAC3C,MAAM,EAAE,KAAK,CAAC,GAAG,CAAC,OAAgB;EAClC,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;EACb,UAAU,EAAE,mBAAmB;CAClC;;;AAhBT,AAkBY,IAlBR,CAEA,QAAQ,CAeJ,GAAG,AACE,MAAM,CAAA;EACH,gBAAgB,EAAE,yBAAyB;EAC3C,mBAAmB,EAAE,MAAM;EAC3B,eAAe,EAAE,KAAK;EACtB,gBAAgB,EAAE,KAAK;EACvB,KAAK,EAAE,KAAK;EACZ,UAAU,EAAE,mBAAmB;CAClC;;;AAzBb,AA4BY,IA5BR,CAEA,QAAQ,CAyBJ,GAAG,AACE,MAAM,CAAA;EACH,UAAU,EAAE,mBAAmB;EAC/B,SAAS,EAAE,UAAU;CACxB;;;AA/Bb,AAkCY,IAlCR,CAEA,QAAQ,CA+BJ,GAAG,AACE,MAAM,CAAA;EACH,SAAS,EAAE,iBAAiB;CAC/B"
+}
