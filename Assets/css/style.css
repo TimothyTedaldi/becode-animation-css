@@ -1,30 +1,40 @@
-/* line 1, ../Documents/GitHub/becode-animation-css/Assets/scss/style.scss */
+@import url(assets/css/normalize.css);
+/* line 2, ../Documents/GitHub/becode-animation-css/Assets/scss/style.scss */
 body {
-  background-color: black;
+  background-color: rgba(172, 168, 168, 0.767);
 }
 
 /* line 3, ../Documents/GitHub/becode-animation-css/Assets/scss/style.scss */
-body .useless {
+body header {
+  background-color: black;
+  background-size: cover;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-row-gap: 1%;
-  text-align: center;
-  margin-top: 5%;
+  grid-template-columns: repeat(2, 1fr);
 }
 
-/* line 9, ../Documents/GitHub/becode-animation-css/Assets/scss/style.scss */
-body .useless button {
+/* line 8, ../Documents/GitHub/becode-animation-css/Assets/scss/style.scss */
+body header .useless {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  text-align: center;
+  margin-top: 5px;
+}
+
+/* line 13, ../Documents/GitHub/becode-animation-css/Assets/scss/style.scss */
+body header .useless button {
+  margin-top: 5%;
+  margin-left: 2%;
   color: white;
   font-size: 18px;
   background-color: rgba(110, 42, 173, 0.808);
   border: solid 7px #bd1335;
-  width: 250px;
-  height: 200px;
+  width: 200px;
+  height: 150px;
   transition: all .5s ease-in-out;
 }
 
-/* line 19, ../Documents/GitHub/becode-animation-css/Assets/scss/style.scss */
-body .useless #b1:hover {
+/* line 25, ../Documents/GitHub/becode-animation-css/Assets/scss/style.scss */
+body header .useless #b1:hover {
   background-image: url("../../img/pika.jpg");
   background-position: center;
   background-size: cover;
@@ -33,15 +43,35 @@ body .useless #b1:hover {
   transition: all .5s ease-in-out;
 }
 
-/* line 29, ../Documents/GitHub/becode-animation-css/Assets/scss/style.scss */
-body .useless #b2:hover {
+/* line 35, ../Documents/GitHub/becode-animation-css/Assets/scss/style.scss */
+body header .useless #b2:hover {
   transition: all .2s ease-in-out;
-  transform: scale(1.5);
+  transform: scale(1.2);
 }
 
-/* line 35, ../Documents/GitHub/becode-animation-css/Assets/scss/style.scss */
-body .useless #b3:hover {
+/* line 41, ../Documents/GitHub/becode-animation-css/Assets/scss/style.scss */
+body header .useless #b3:hover {
   transform: translatey(200px);
+}
+
+/* line 46, ../Documents/GitHub/becode-animation-css/Assets/scss/style.scss */
+body header .heading {
+  color: white;
+  text-align: center;
+  margin-left: 20%;
+}
+
+/* line 50, ../Documents/GitHub/becode-animation-css/Assets/scss/style.scss */
+body header .heading h1 {
+  font-size: 60px;
+  text-align: left;
+  text-decoration: underline;
+}
+
+/* line 55, ../Documents/GitHub/becode-animation-css/Assets/scss/style.scss */
+body header .heading p {
+  font-size: 24px;
+  text-align: left;
 }
 
 /*# sourceMappingURL=style.css.map */
