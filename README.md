@@ -15,10 +15,10 @@ This repository contains the ressources to build the Website ("https://timothyte
 Well creating the repos is done and as you can see the README.md has been updated, now i can have fun
 i guess.
 
-![Steps](img/steps.png)
+![Steps](https://github.com/TimothyTedaldi/tim-berners-lee/img/steps.png)
 
 
 ## Validations
 
 This webpage is W3C and lighthouse validated
-![lighthouse validation](https://github.com/TimothyTedaldi/tim-berners-lee/image/lightousevalidated.png "lighthouse validation")
+![lighthouse validation](https://github.com/TimothyTedaldi/becode-animation-css/img/lightousevalidated.png "lighthouse validation")
