@@ -8,7 +8,7 @@ This repository contains the ressources to build the Website ("https://timothyte
 
 | Hour | Description |
 |-------:| -----------:|
-|'9h-9h17'| Creation of repository + init files css and html |
+|'9h-9h30'| Creation of repository + init files css and html |
 
 ## Progression so far
 
